@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import Display from './components/Display';
 import Views from './components/Views';
+import { Comments } from './components/Comments';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Subscribers />
         <Views />
         <Display />
+        <Comments />
       </div>
     </Provider>
   );
