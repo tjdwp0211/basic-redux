@@ -9,9 +9,9 @@ const Display = ({ count }) => {
     )
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (Subscribers) => {
     return {
-        counnt: state.count
+        counnt: Subscribers.count
     }
 }
 
